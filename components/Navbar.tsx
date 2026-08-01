@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, isDark, toggleTheme }) =
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-xl font-bold text-slate-900 dark:text-slate-900">Pavan Kumar K T</span>
+            <span className="text-xl font-bold text-slate-900 dark:text-white">Pavan Kumar K T</span>
           </div>
 
           {/* Desktop Nav */}

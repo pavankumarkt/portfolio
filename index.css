@@ -72,35 +72,6 @@ body {
     background-clip: text;
 }
 
-.coding-text::before {
-    content: 'const code = () => { return "Hello World"; } // function loop array map filter reduce';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #1e293b 0%, #0f172a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.15;
-    font-size: 0.15em;
-    font-family: 'Courier New', monospace;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: scrollCode 8s linear infinite;
-    letter-spacing: 0.05em;
-}
-
-@keyframes scrollCode {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-}
 
 /* Coding Text Animation - Black Variant */
 /* Coding Text Animation - Responsive */
@@ -123,35 +94,6 @@ body {
     /* 3D effect */
 }
 
-.coding-text::before {
-    content: 'const code = () => { return "Hello World"; } // function loop array map filter reduce';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.15;
-    font-size: 0.15em;
-    font-family: 'Courier New', monospace;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: scrollCode 8s linear infinite;
-    letter-spacing: 0.05em;
-    transition: all 0.3s ease;
-}
-
-/* Dark mode override for pseudo-element */
-.dark .coding-text::before {
-    background: #ffffff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.2;
-}
 
 /* Starfield Background Animation */
 @keyframes twinkle {

@@ -6,13 +6,21 @@ const Hero: React.FC<{ id: string }> = ({ id }) => {
   return (
     <section id={id} className="min-h-screen flex items-center justify-center pt-20 px-4 transition-colors duration-300">
       <div className="max-w-4xl mx-auto text-center space-y-6">
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/profile.jpg" 
+            alt={PERSONAL_INFO.name} 
+            className="w-48 h-48 rounded-full object-cover border-4 border-indigo-100 dark:border-indigo-900 shadow-xl shadow-indigo-500/20"
+          />
+        </div>
+
         <div className="inline-block px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/50 text-indigo-600 dark:text-indigo-300 text-sm font-semibold tracking-wide uppercase">
           {PERSONAL_INFO.title}
         </div>
 
         {/* Name with Coding Animation */}
-        <h1 className="text-6xl md:text-8xl font-black tracking-tight relative overflow-hidden">
-          <span className="relative inline-block text-black dark:text-white coding-text">
+        <h1 className="text-6xl md:text-8xl font-black tracking-tight relative overflow-hidden pb-2">
+          <span className="relative inline-block text-slate-900 dark:text-white">
             {PERSONAL_INFO.name}
           </span>
         </h1>
