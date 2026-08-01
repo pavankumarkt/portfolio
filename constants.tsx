@@ -1,120 +1,146 @@
-import { Project, Education, SkillCategory, Achievement } from './types';
+import { Project, Education, SkillCategory, Achievement, Certificate } from './types';
 
 export const PERSONAL_INFO = {
-  name: "PAVAN KUMAR K T",
-  title: "Computer Science Student",
-  subtitle: "Pre-final Year Student",
+  name: "Pavan Kumar K T",
+  title: "CS Student",
+  subtitle: "Computer Science Engineering Student",
   email: "pavanraj.kumar2503@gmail.com",
   phone: "+91 87479 45025",
   linkedin: "https://www.linkedin.com/in/pavan-kumar-29a9162b7",
   github: "https://github.com/pavankumar2503-sys",
-  summary: "Motivated CS student with strong analytical thinking & a passion for building real-world solutions",
-  location: "Mandya, Karnataka, India",
-  about: "Hi, I'm PAVAN KUMAR K T. Currently pursuing my Pre-final year Bachelor's in Computer Science at Maharaja Institute of Technology, Mysuru. My passion lies in building software that solves real-world problems and exploring the limitless possibilities of AI and web development.\n\nI have solid programming fundamentals and hands-on project-based experience. From developing deep learning models for medical image analysis to building full-stack web applications with the MERN stack, I'm constantly pushing my boundaries. My strong analytical and logical thinking skills drive me to learn and grow in challenging technical environments."
+  summary: "Computer Science Engineering student passionate about Artificial Intelligence, Machine Learning, Data Analytics, and Generative AI. Experienced in developing AI-powered applications, building full-stack web solutions, and analyzing data using Python and SQL.",
+  location: "Keremegaladoddi, Mandya district, Karnataka",
+  nationality: "Indian",
+  about: "Computer Science Engineering student passionate about Artificial Intelligence, Machine Learning, Data Analytics, and Generative AI. Experienced in developing AI-powered applications, building full-stack web solutions, and analyzing data using Python and SQL.\n\nStrong analytical and problem-solving skills with a commitment to creating impactful, intelligent, and scalable solutions."
 };
 
 export const ABOUT_STATS = [
   {
     label: "Education",
     value: "B.E. Computer Science",
-    subValue: "Maharaja Institute of Technology (2023-2027)"
+    subValue: "Maharaja Institute of Technology, Mysore (CGPA: 8.3)"
   },
   {
     label: "Focus",
-    value: "Full-Stack & AI Development",
-    subValue: "React, MERN Stack, Deep Learning"
+    value: "AI & Full-Stack Solutions",
+    subValue: "Python, TensorFlow, React, FastAPI, MERN"
   },
   {
     label: "Goal",
-    value: "Software Engineer",
-    subValue: "Building scalable solutions"
+    value: "AI & Software Engineer",
+    subValue: "Creating impactful & scalable intelligent solutions"
   }
 ];
 
 export const PROJECTS: Project[] = [
   {
-    title: "PNEUMONIA DETECTION SYSTEM",
-    date: "NOV 2025 - DEC 2025",
-    description: "Developed a pneumonia detection system using deep learning to classify chest X-ray images as pneumonia or normal. Implemented data preprocessing, model training, and evaluation enabling accurate and automated medical image analysis to support early diagnosis.",
+    title: "REAL-TIME ROAD HEALTH MONITORING AND POTHOLE DETECTION",
+    date: "06/2026 – PRESENT",
+    description: "Developed an AI-powered web application for real-time pothole detection and road damage reporting using image analysis, GPS location extraction, and complaint tracking.",
     link: "https://github.com/pavankumar2503-sys",
-    tech: ["Python", "CNN", "TensorFlow/Keras", "OpenCV", "NumPy", "Pandas"]
+    tech: ["React.js", "FastAPI", "TensorFlow", "SQLite", "Python"]
   },
   {
     title: "ROLE-BASED ACADEMIC DATABASE MANAGEMENT SYSTEM",
-    date: "FEB 2026 - MAR 2026",
-    description: "Developed a Role-Based Academic Database Management System using the MERN stack to manage student, faculty, and administrative records efficiently. Implemented secure role-based authentication and authorization to control access for different users.",
-    link: "https://github.com/pavankumar2503-sys",
-    tech: ["MongoDB", "Express", "React", "Node.js"]
+    date: "02/2026 – 03/2026",
+    description: "Developed a Role-Based Academic Database Management System using the MERN stack to manage student, faculty, and administrative records efficiently.",
+    link: "https://github.com/pavankumar2503-sys/Academic-DBMS",
+    tech: ["MERN Stack", "MongoDB", "Express.js", "React.js", "Node.js"]
   },
   {
     title: "COW DATABASE MANAGEMENT SYSTEM",
-    date: "AUG 2025 - SEP 2025",
-    description: "Built a web-based Cow Database Management System using the MERN stack to manage cattle records including health, vaccination, and breeding details. Implemented a responsive React frontend, RESTful APIs, and MongoDB for secure and scalable data storage.",
+    date: "02/2026 – 03/2026",
+    description: "Built a web-based cattle management system to maintain health, vaccination, and breeding records with secure data storage and an intuitive user interface.",
+    link: "https://github.com/pavankumar2503-sys/Cow-database-management-system",
+    tech: ["MERN Stack", "MongoDB", "Express.js", "React.js", "Node.js"]
+  },
+  {
+    title: "PNEUMONIA DETECTION",
+    date: "11/2025 – 12/2025",
+    description: "Developed a deep learning model to classify chest X-ray images for pneumonia detection using CNN-based image classification and preprocessing techniques.",
     link: "https://github.com/pavankumar2503-sys",
-    tech: ["MongoDB", "Express", "React", "Node.js"]
+    tech: ["Python", "TensorFlow", "Keras", "OpenCV"]
   }
 ];
 
 export const EDUCATION_LIST: Education[] = [
   {
-    institution: "Maharaja Institute of Technology",
-    degree: "Bachelor of Engineering, Computer Science",
-    period: "2023 - 2027(Expected)",
+    institution: "Maharaja Institute of Technology, Mysore",
+    degree: "Bachelor of Engineering [CSE]",
+    period: "08/2023 – Present",
     grade: "CGPA: 8.3",
     location: "Mysuru"
   },
   {
     institution: "HDK PU College Besagarahalli",
-    degree: "PUC (12th Grade)",
-    period: "2021 - 2023",
-    grade: "86.66%",
+    degree: "Pre-University Course",
+    period: "2021 – 2023",
+    grade: "Percentage: 86.66%",
     location: "Mandya"
   },
   {
-    institution: "Poorna Prajna Convent Shivapura",
+    institution: "Poorna Prajna Convent",
     degree: "SSLC (10th Grade)",
-    period: "2021",
-    grade: "97.66%",
-    location: "Maddur"
+    period: "2020 – 2021",
+    grade: "Percentage: 97.66%",
+    location: "Shivapura Maddur"
   }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    category: "Frontend",
-    skills: ["HTML5", "CSS3", "JavaScript", "React.js"]
+    category: "Programming",
+    skills: ["C", "Python", "HTML", "CSS", "SQL"]
   },
   {
-    category: "Backend",
-    skills: ["Node.js", "Express", "REST APIs", "MongoDB", "Python", "C"]
+    category: "AI & Machine Learning",
+    skills: ["Machine Learning", "Deep Learning", "Generative AI", "TensorFlow", "Keras", "OpenCV"]
   },
   {
-    category: "AI & Data Science",
-    skills: ["TensorFlow/Keras", "CNN", "OpenCV", "NumPy", "Pandas"]
-  },
-  {
-    category: "Tools & Certifications",
-    skills: ["Git", "GitHub", "VS Code", "AWS Cloud Practitioner", "Cyber Security"]
+    category: "Data Analytics & Visualization",
+    skills: ["Pandas", "NumPy", "Matplotlib", "Data Visualization"]
   },
   {
     category: "Soft Skills",
-    skills: ["Problem Solving", "Analytical Thinking", "Team Collaboration", "Adaptability", "Continuous Learning"]
+    skills: ["Analytical Thinking", "Problem Solving", "Team Collaboration", "Communication", "Adaptability", "Continuous Learning"]
   }
+];
+
+export const CERTIFICATES_LIST: Certificate[] = [
+  { name: "AWS Cloud Practitioner Essentials" },
+  { name: "Developing Front-End Apps With React" },
+  { name: "Cyber Security Technologies" },
+  { name: "Applied Machine Learning in Python" }
 ];
 
 export const ACHIEVEMENTS_LIST: Achievement[] = [
   {
     title: "1st Runner-up",
     organization: "MITM XYPHER Hackathon 2026",
-    date: "March 2026",
-    location: "Mysuru",
+    date: "27/03/2026 – 28/03/2026",
+    location: "Mysore",
     description: "Demonstrated strong analytical thinking, problem-solving, and teamwork skills while building and presenting a functional prototype within a competitive, time-constrained environment."
   },
   {
     title: "1st Runner-up",
     organization: "NMIT Sparklab Designathon 2025",
-    date: "October 2025",
+    date: "23/10/2025 – 24/10/2025",
     location: "Bengaluru",
-    description: "National-Level Designathon Event where we designed an innovative model focused on reducing food waste in society through sustainable and technology-driven solutions."
+    description: "National-Level Designathon Event organized by NMIT Sparklab 2K25, where we designed an innovative model focused on reducing food waste in society through sustainable and technology-driven solutions."
   }
+];
+
+export const LANGUAGES_LIST: string[] = [
+  "English",
+  "Kannada",
+  "Tamil",
+  "Telugu",
+  "Hindi"
+];
+
+export const INTERESTS_LIST: string[] = [
+  "Gaming",
+  "Reading",
+  "Traveling",
+  "Farming"
 ];

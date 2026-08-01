@@ -26,3 +26,9 @@ export interface Achievement {
   description: string;
   location?: string;
 }
+
+export interface Certificate {
+  name: string;
+  issuer?: string;
+}
+
