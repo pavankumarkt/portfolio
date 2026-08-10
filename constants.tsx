@@ -6,8 +6,8 @@ export const PERSONAL_INFO = {
   subtitle: "Computer Science Engineering Student",
   email: "pavanraj.kumar2503@gmail.com",
   phone: "+91 87479 45025",
-  linkedin: "https://www.linkedin.com/in/pavan-kumar-29a9162b7",
-  github: "https://github.com/pavankumar2503-sys",
+  linkedin: "https://www.linkedin.com/in/pavankumarkt",
+  github: "https://github.com/pavankumarkt",
   summary: "Computer Science Engineering student passionate about Artificial Intelligence, Machine Learning, Data Analytics, and Generative AI. Experienced in developing AI-powered applications, building full-stack web solutions, and analyzing data using Python and SQL.",
   location: "Keremegaladoddi, Mandya district, Karnataka",
   nationality: "Indian",
@@ -37,28 +37,28 @@ export const PROJECTS: Project[] = [
     title: "REAL-TIME ROAD HEALTH MONITORING AND POTHOLE DETECTION",
     date: "06/2026 – PRESENT",
     description: "Developed an AI-powered web application for real-time pothole detection and road damage reporting using image analysis, GPS location extraction, and complaint tracking.",
-    link: "https://github.com/pavankumar2503-sys",
+    link: "https://github.com/pavankumarkt",
     tech: ["React.js", "FastAPI", "TensorFlow", "SQLite", "Python"]
   },
   {
     title: "ROLE-BASED ACADEMIC DATABASE MANAGEMENT SYSTEM",
     date: "02/2026 – 03/2026",
     description: "Developed a Role-Based Academic Database Management System using the MERN stack to manage student, faculty, and administrative records efficiently.",
-    link: "https://github.com/pavankumar2503-sys/Academic-DBMS",
+    link: "https://github.com/pavankumarkt/Academic-DBMS",
     tech: ["MERN Stack", "MongoDB", "Express.js", "React.js", "Node.js"]
   },
   {
     title: "COW DATABASE MANAGEMENT SYSTEM",
     date: "02/2026 – 03/2026",
     description: "Built a web-based cattle management system to maintain health, vaccination, and breeding records with secure data storage and an intuitive user interface.",
-    link: "https://github.com/pavankumar2503-sys/Cow-database-management-system",
+    link: "https://github.com/pavankumarkt/Cow-database-management-system",
     tech: ["MERN Stack", "MongoDB", "Express.js", "React.js", "Node.js"]
   },
   {
     title: "PNEUMONIA DETECTION",
     date: "11/2025 – 12/2025",
     description: "Developed a deep learning model to classify chest X-ray images for pneumonia detection using CNN-based image classification and preprocessing techniques.",
-    link: "https://github.com/pavankumar2503-sys",
+    link: "https://github.com/pavankumarkt",
     tech: ["Python", "TensorFlow", "Keras", "OpenCV"]
   }
 ];
