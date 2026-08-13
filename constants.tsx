@@ -18,7 +18,7 @@ export const ABOUT_STATS = [
   {
     label: "Education",
     value: "B.E. Computer Science",
-    subValue: "Maharaja Institute of Technology, Mysore (CGPA: 8.3)"
+    subValue: "Maharaja Institute of Technology, Mysore (CGPA: 8.55)"
   },
   {
     label: "Focus",
@@ -68,21 +68,21 @@ export const EDUCATION_LIST: Education[] = [
     institution: "Maharaja Institute of Technology, Mysore",
     degree: "Bachelor of Engineering [CSE]",
     period: "08/2023 – Present",
-    grade: "CGPA: 8.3",
+    grade: "CGPA: 8.55",
     location: "Mysuru"
   },
   {
     institution: "HDK PU College Besagarahalli",
     degree: "Pre-University Course",
     period: "2021 – 2023",
-    grade: "Percentage: 86.66%",
-    location: "Mandya"
+    grade: "Percentage: 85.66%",
+    location: "Besagarahalli"
   },
   {
     institution: "Poorna Prajna Convent",
     degree: "SSLC (10th Grade)",
     period: "2020 – 2021",
-    grade: "Percentage: 97.66%",
+    grade: "Percentage: 97.76%",
     location: "Shivapura Maddur"
   }
 ];
@@ -139,8 +139,8 @@ export const LANGUAGES_LIST: string[] = [
 ];
 
 export const INTERESTS_LIST: string[] = [
-  "Gaming",
-  "Reading",
-  "Traveling",
+  "Exploring New Technologies",
+  "Problem Solving",
+  "Data Analysis",
   "Farming"
 ];
